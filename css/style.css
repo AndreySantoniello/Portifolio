@@ -125,6 +125,12 @@ section.topSite .flex {
   }
 }
 
+/* Style Menu Mobile */
+
+.menu-mobile {
+  display: none;
+}
+
 /* Style Especialidades */
 section.especialidades {
   padding: 40px 4%;
@@ -313,7 +319,7 @@ footer .flex {
 }
 
 footer .line-footer {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .borda {
   border-top: 2px solid #f2c001;
@@ -322,6 +328,7 @@ footer .line-footer {
 footer .line-footer p i {
   color: #f2c001;
   font-size: 22px;
+  
 }
 
 footer .line-footer p a {
@@ -329,9 +336,24 @@ footer .line-footer p a {
   text-decoration: none;
 }
 
-/* Style Media Scream */
+footer .line-footer p {
+  padding: 5px 0;
+}
 
-@media screen and (max-width: 900px) {
+
+/* Style Media Scream 1000 */
+@media screen and (max-width: 1030px) {
+  /* Style Menu Desktop */
+
+  header a {
+    font-size: 20px
+  }
+
+}
+
+/* Style Media Scream 900 */
+
+@media screen and (max-width: 1024px) {
   /* Geral */
 
   .flex {
@@ -388,6 +410,7 @@ footer .line-footer p a {
     width: 0%;
     overflow: hidden;
     transition: 0.5s;
+    display: block;
   }
 
   .menu-mobile.abrir-menu {
