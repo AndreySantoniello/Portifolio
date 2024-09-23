@@ -490,10 +490,12 @@ footer .line-footer.borda {
 
   .btn-social {
     text-align: center;
+    padding-bottom: 20px;
   }
 
   .img-sobre img {
     width: 100%;
+    border-radius: 15px;
   }
 
   /* Portifolio */

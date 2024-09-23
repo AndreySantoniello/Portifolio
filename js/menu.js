@@ -27,6 +27,11 @@ const links = [
     { id: 'sobre', section: 'sobreSecao' },
     { id: 'projetos', section: 'portifolioSecao' },
     { id: 'contato', section: 'footerSecao' },
+    { id: 'inicioM', section: 'inicioSecao' },
+    { id: 'especialidadesM', section: 'especialidadesSecao' },
+    { id: 'sobreM', section: 'sobreSecao' },
+    { id: 'projetosM', section: 'portifolioSecao' },
+    { id: 'contatoM', section: 'footerSecao' },
     { id: 'seta', section: 'inicioSecao'}
 ];
 
